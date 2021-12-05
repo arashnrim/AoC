@@ -8,6 +8,7 @@ try:
                       for index in range(0, len(bingoCards), 5)]
 except FileNotFoundError:
     print("[!] The input file was not found. The program will not continue.")
+    exit(-1)
 
 
 def markDrawnNumbers(drawnNumber, bingoCard):

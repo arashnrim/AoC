@@ -3,6 +3,7 @@ try:
         diagnosticBits = [line.strip("\n") for line in fileContent.readlines()]
 except FileNotFoundError:
     print("[!] The input file was not found. The program will not continue.")
+    exit(-1)
 
 gamma, epsilon = "", ""
 

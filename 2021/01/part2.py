@@ -3,6 +3,7 @@ try:
         depths = [int(depth.strip("\n")) for depth in fileContent.readlines()]
 except FileNotFoundError:
     print("[!] The input file was not found. The program will not continue.")
+    exit(-1)
 
 sums = []
 

@@ -4,6 +4,7 @@ try:
                      for movement in fileContent.readlines()]
 except FileNotFoundError:
     print("[!] The input file was not found. The program will not continue.")
+    exit(-1)
 
 horizontal, depth = 0, 0
 for movement in movements:
