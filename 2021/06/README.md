@@ -4,7 +4,7 @@ I am experiencing issues with this day's task due to **performance issues**. The
 
 ## Details
 
-Taking a look at my solution in `part1.py`, a nested foor loop is utilised in order loop through every value in the `timers` list for 80 iterations.
+Taking a look at my solution in `part1.py`, a nested for loop is utilised in order to loop through every value in the `timers` list for 80 iterations.
 
 ```python
 for _ in range(80):
