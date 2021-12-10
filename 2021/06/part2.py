@@ -8,7 +8,7 @@ except FileNotFoundError:
     print("[!] The input file was not found. The program will not continue.")
     exit(-1)
 
-for _ in range(80):
+for _ in range(256):
     newborns, initialSixes = frequencies[-1], frequencies[6]
     for index in range(len(frequencies)):
         if index == 0 and frequencies[index] > 0:
